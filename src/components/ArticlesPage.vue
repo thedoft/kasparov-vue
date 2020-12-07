@@ -1,10 +1,17 @@
 <template>
-  <h2>Articles</h2>
+  <Section title="Статьи">
+    <SectionList />
+  </Section>
 </template>
 
 <script>
+import Section from './Section';
+
 export default {
-  name: 'ArticlesPage'
+  name: 'ArticlesPage',
+  components: {
+    Section
+  }
 }
 </script>
 

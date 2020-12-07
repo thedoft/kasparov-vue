@@ -20,3 +20,22 @@ export const socialList = [
     text: 'Телеграм'
   }
 ]
+
+export const servicesList = [
+  {
+    image: './images/Консультация.jpg',
+    title: 'azaza'
+  },
+  {
+    image: './images/Консультация.jpg',
+    title: 'azaza'
+  },
+  {
+    image: './images/Консультация.jpg',
+    title: 'azaza'
+  },
+  {
+    image: './images/Консультация.jpg',
+    title: 'azaza'
+  }
+]

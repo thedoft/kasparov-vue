@@ -27,7 +27,7 @@ export default {
 .menu__list {
   width: 600px;
   list-style: none;
-  margin: 0 20px 0 0;
+  margin: 0 40px 0 0;
   padding: 0;
   display: flex;
   justify-content: space-between;
@@ -35,7 +35,7 @@ export default {
 
 .menu__link {
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.2;
   text-decoration: none;
 }

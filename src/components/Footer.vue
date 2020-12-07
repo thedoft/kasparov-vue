@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <ul class="social-list">
+    <ul class="footer__list">
       <SocialListItem
         v-for="item in items"
         :key="item.id"
@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import { socialList } from '../data/data.js';
+import { socialList } from '../data/data';
 import SocialListItem from './SocialListItem';
 
 export default {
@@ -33,7 +33,7 @@ export default {
 
 <style>
 .footer {
-  padding: 20px;
+  padding: 20px 40px;
   width: 100%;
   max-width: 1280px;
   box-sizing: border-box;
@@ -42,20 +42,20 @@ export default {
   justify-content: space-between;
 }
 
-.footer__text {
-  font-size: 18px;
-  line-height: 20px;
-  color: #fff;
-  margin: 0;
-  text-align: left;
-}
-
-.social-list {
+.footer__list {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: space-between;
   width: 162px;
+}
+
+.footer__text {
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  margin: 0;
+  text-align: left;
 }
 </style>

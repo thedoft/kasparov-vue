@@ -23,7 +23,7 @@ export default {
 
 <style>
 .header {
-  padding: 20px;
+  padding: 20px 40px;
   width: 100%;
   max-width: 1280px;
   box-sizing: border-box;
@@ -34,8 +34,9 @@ export default {
 
 .header__title {
   margin: 0 20px 0 0;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 3px;
 }
 
 .header__link {

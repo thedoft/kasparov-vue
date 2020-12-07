@@ -1,10 +1,17 @@
 <template>
-  <h2>Webinars</h2>
+  <Section title="Вебинары">
+    <SectionList />
+  </Section>
 </template>
 
 <script>
+import Section from './Section';
+
 export default {
-  name: 'WebinarsPage'
+  name: 'WebinarsPage',
+  components: {
+    Section
+  }
 }
 </script>
 
