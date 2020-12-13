@@ -4,6 +4,8 @@ import AboutPage from './components/AboutPage';
 import ServicesPage from './components/ServicesPage';
 import WebinarsPage from './components/WebinarsPage';
 import ArticlesPage from './components/ArticlesPage';
+import ArticlesChoiceButtonSection from './components/ArticlesChoiceButtonSection';
+import ArticlesListSection from './components/ArticlesListSection';
 import NotFoundPage from './components/NotFoundPage';
 
 export const router = createRouter({
@@ -27,7 +29,18 @@ export const router = createRouter({
     },
     {
       path: '/articles',
-      component: ArticlesPage
+      component: ArticlesPage,
+      children: [
+        {
+          path: '',
+          component: ArticlesChoiceButtonSection
+        },
+        {
+          path: 'opened',
+          component: ArticlesListSection,
+          alias: ['closed', 'studies']
+        }
+      ]
     },
     {
       path: '/:catchAll(.*)',

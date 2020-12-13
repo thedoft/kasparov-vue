@@ -14,7 +14,7 @@ export default {
 .home-page {
   background: url('../assets/vadim-kasparov.jpg') no-repeat center / contain;
   position: relative;
-  height: 100%;
+  min-height: calc(100vh - 190px);
 }
 
 .home-page__overlay {

@@ -4,7 +4,7 @@
       <div class="two-columns__description">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore cupiditate magni molestias eius. Minus neque sunt, iusto nemo ratione, iure blanditiis ipsa itaque consectetur veniam sequi. Dolores, unde eos!</p>
       </div>
-      <img src="../assets/vadim-2.jpg" alt="#" class="two-columns__image">
+      <div class="two-columns__image"></div>
     </div>
   </Section>
 </template>
@@ -26,21 +26,18 @@ export default {
   justify-content: space-between;
   width: 100%;
   max-width: 1280px;
-  padding: 0 140px;
-  height: calc(100% - 130px);
+  padding: 0 100px;
+  min-height: calc(100vh - 384px);
   box-sizing: border-box;
 }
 
 .two-columns__description {
-  min-width: 400px;
-  max-width: 700px;
-  margin: 0 100px 0 0;
+  width: 60%;
 }
 
 .two-columns__image {
-  height: 100%;
-  object-fit: contain;
-  object-position: center;
+  width: 30%;
   box-shadow: black 0 0 10px;
+  background: url(../assets/vadim-2.jpg) no-repeat center top / cover;
 }
 </style>

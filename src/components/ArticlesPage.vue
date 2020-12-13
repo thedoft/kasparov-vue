@@ -1,16 +1,16 @@
 <template>
-  <Section title="Статьи">
-    <SectionList />
-  </Section>
+  <RouterView :articlesList="articlesList" />
 </template>
 
 <script>
-import Section from './Section';
+import { articlesList } from '../data/data';
 
 export default {
   name: 'ArticlesPage',
-  components: {
-    Section
+  data() {
+    return {
+      articlesList
+    }
   }
 }
 </script>

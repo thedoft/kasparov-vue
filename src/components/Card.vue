@@ -1,14 +1,16 @@
 <template>
   <li class="card">
-    <img :src="image" :alt="title" class="card__image">
-    <h2 class="card__title">{{ title }}</h2>
+    <img :src="item.image" :alt="item.title" class="card__image">
+    <div class="card__title-container">
+      <h2 class="card__title">{{ item.title }}</h2>
+    </div>
   </li>
 </template>
 
 <script>
 export default {
   name: 'Card',
-  props: ['image', 'title']
+  props: ['item']
 }
 </script>
 
@@ -33,11 +35,21 @@ export default {
   box-shadow: #000 0 3px 3px;
 }
 
+.card__title-container {
+  box-sizing: border-box;
+  padding: 0 12px;
+  width: 100%;
+  height: -webkit-fill-available;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .card__title {
   margin: 0;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 20px;
+  line-height: 1.2;
   text-align: center;
 }
 </style>

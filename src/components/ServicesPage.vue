@@ -1,8 +1,8 @@
 <template>
   <Section title="Услуги">
-    <SectionList :items="servicesList">
-      <slot></slot>
-    </SectionList>
+    <SectionList :items="servicesList"
+      @open-popup="openPopup"
+    />
   </Section>
 </template>
 
@@ -20,6 +20,11 @@ export default {
   data() {
     return {
       servicesList
+    }
+  },
+  methods: {
+    openPopup(item) {
+      this.$emit('open-popup', item);
     }
   }
 }

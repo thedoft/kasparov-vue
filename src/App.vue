@@ -1,20 +1,34 @@
 <template>
   <Header />
-  <Main />
+  <Main @open-popup="openPopup" />
   <Footer />
+  <Popup ref="popup" :onEscape="handleEscapeClose" />
 </template>
 
 <script>
   import Header from './components/Header';
   import Main from './components/Main';
   import Footer from './components/Footer';
+  import Popup from './components/Popup';
 
   export default {
     name: 'App',
     components: {
       Header,
       Main,
-      Footer
+      Footer,
+      Popup
+    },
+    methods: {
+      openPopup(item) {
+        this.$refs.popup.isPopupOpened = true;
+        this.$refs.popup.item = item;
+      },
+      handleEscapeClose(evt) {
+        if (evt.key === 'Escape') {
+          this.$refs.popup.isPopupOpened = false;
+        }
+      }
     }
   }
 </script>

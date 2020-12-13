@@ -1,18 +1,22 @@
 <template>
   <main class="main">
-    <router-view></router-view>
+    <RouterView @open-popup="openPopup" />
   </main>
 </template>
 
 <script>
 export default {
   name: 'Main',
+  methods: {
+    openPopup(item) {
+      this.$emit('open-popup', item);
+    }
+  }
 }
 </script>
 
 <style>
 .main {
-  height: calc(100vh - 190px);
   width: 100%;
   box-sizing: border-box;
 }

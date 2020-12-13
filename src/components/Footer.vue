@@ -1,27 +1,30 @@
 <template>
   <footer class="footer">
     <ul class="footer__list">
-      <SocialListItem
+      <li class="footer__list-item"
         v-for="item in items"
         :key="item.id"
-        :link="item.link"
-        :image="item.image"
-        :text="item.text"
-      />
+      >
+        <SocialIcon
+          :link="item.link"
+          :image="item.image"
+          :text="item.text"
+        />
+      </li>
     </ul>
     <p class="footer__text">Когда взойдет солнце, будь готов переставить будильник (c)</p>
-    <p class="footer__text">&copy; {{new Date().getFullYear()}}</p>
+    <p class="footer__text">thedoft &copy; {{new Date().getFullYear()}}</p>
   </footer>
 </template>
 
 <script>
 import { socialList } from '../data/data';
-import SocialListItem from './SocialListItem';
+import SocialIcon from './SocialIcon';
 
 export default {
   name: 'Footer',
   components: {
-    SocialListItem
+    SocialIcon
   },
   data() {
     return {
@@ -51,9 +54,15 @@ export default {
   width: 162px;
 }
 
+.footer__list-item {
+  width: 30px;
+  height: 30px;
+}
+
 .footer__text {
   font-size: 16px;
   line-height: 20px;
+  font-weight: 400;
   color: #fff;
   margin: 0;
   text-align: left;

@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <h1 class="header__title">
-      <router-link to="/" class="header__link">Вадим Каспаров</router-link>
+      <RouterLink to="/" class="header__link">Вадим Каспаров</RouterLink>
     </h1>
     <HeaderMenu />
     <Logo />
