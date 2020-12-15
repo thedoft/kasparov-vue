@@ -1,53 +1,53 @@
 export const socialList = [
   {
     link: '#',
-    image: 'images/vk.svg',
+    image: '../assets/vk.svg',
     text: 'Вконтакте'
   },
   {
     link: '#',
-    image: 'images/instagram.svg',
+    image: '../assets/instagram.svg',
     text: 'Инстаграм'
   },
   {
     link: '#',
-    image: 'images/youtube.svg',
+    image: '../assets/youtube.svg',
     text: 'Ютуб'
   },
   {
     link: '#',
-    image: 'images/telegram.svg',
+    image: '../assets/telegram.svg',
     text: 'Телеграм'
   }
 ]
 
 export const servicesList = [
   {
-    image: 'images/Консультация.jpg',
+    image: '../assets/Консультация.jpg',
     title: 'Консультация',
     price: 5000,
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore cupiditate magni molestias eius. Minus neque sunt, iusto nemo ratione, iure blanditiis ipsa itaque consectetur veniam sequi. Dolores, unde eos!'
   },
   {
-    image: 'images/Корзина добавок.jpg',
+    image: '../assets/Корзина добавок.jpg',
     title: 'Корзина добавок',
     price: 5000,
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore cupiditate magni molestias eius. Minus neque sunt, iusto nemo ratione, iure blanditiis ipsa itaque consectetur veniam sequi. Dolores, unde eos!'
   },
   {
-    image: 'images/Программа тренировок.jpg',
+    image: '../assets/Программа тренировок.jpg',
     title: 'Программа тренировок',
     price: 5000,
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore cupiditate magni molestias eius. Minus neque sunt, iusto nemo ratione, iure blanditiis ipsa itaque consectetur veniam sequi. Dolores, unde eos!'
   },
   {
-    image: 'images/vedenie.jpg',
+    image: '../assets/Ведение.jpg',
     title: 'Ведение',
     price: 5000,
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore cupiditate magni molestias eius. Minus neque sunt, iusto nemo ratione, iure blanditiis ipsa itaque consectetur veniam sequi. Dolores, unde eos!'
   },
   {
-    image: 'images/Ведение.jpg',
+    image: '../assets/Ведение.jpg',
     title: 'Ведение',
     price: 5000,
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore cupiditate magni molestias eius. Minus neque sunt, iusto nemo ratione, iure blanditiis ipsa itaque consectetur veniam sequi. Dolores, unde eos!'
@@ -56,39 +56,39 @@ export const servicesList = [
 
 export const webinarsList = [
   {
-    image: 'images/Гибкая диета.jpg',
+    image: '../assets/Гибкая диета.jpg',
     title: 'azaza',
     price: 5000,
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore cupiditate magni molestias eius. Minus neque sunt, iusto nemo ratione, iure blanditiis ipsa itaque consectetur veniam sequi. Dolores, unde eos!'
   },
   {
-    image: 'images/Гибкая диета.jpg',
+    image: '../assets/Гибкая диета.jpg',
     title: 'azaza',
     price: 5000,
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore cupiditate magni molestias eius. Minus neque sunt, iusto nemo ratione, iure blanditiis ipsa itaque consectetur veniam sequi. Dolores, unde eos!'
   },
   {
-    image: 'images/Гибкая диета.jpg',
+    image: '../assets/Гибкая диета.jpg',
     title: 'azaza',
     price: 5000,
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore cupiditate magni molestias eius. Minus neque sunt, iusto nemo ratione, iure blanditiis ipsa itaque consectetur veniam sequi. Dolores, unde eos!'
   },
   {
-    image: 'images/Гибкая диета.jpg',
+    image: '../assets/Гибкая диета.jpg',
     title: 'azaza',
     price: 5000,
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore cupiditate magni molestias eius. Minus neque sunt, iusto nemo ratione, iure blanditiis ipsa itaque consectetur veniam sequi. Dolores, unde eos!'
   },
   {
-    image: 'images/Гибкая диета.jpg',
+    image: '../assets/Гибкая диета.jpg',
     title: 'azaza'
   },
   {
-    image: 'images/Гибкая диета.jpg',
+    image: '../assets/Гибкая диета.jpg',
     title: 'azaza'
   },
   {
-    image: 'images/Гибкая диета.jpg',
+    image: '../assets/Гибкая диета.jpg',
     title: 'azaza'
   },
 ]
