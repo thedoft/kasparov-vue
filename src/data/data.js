@@ -41,7 +41,7 @@ export const servicesList = [
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore cupiditate magni molestias eius. Minus neque sunt, iusto nemo ratione, iure blanditiis ipsa itaque consectetur veniam sequi. Dolores, unde eos!'
   },
   {
-    image: 'images/Ведение.jpg',
+    image: 'images/vedenie.jpg',
     title: 'Ведение',
     price: 5000,
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore cupiditate magni molestias eius. Minus neque sunt, iusto nemo ratione, iure blanditiis ipsa itaque consectetur veniam sequi. Dolores, unde eos!'
