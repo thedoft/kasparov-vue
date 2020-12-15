@@ -1,6 +1,6 @@
 <template>
   <li class="card">
-    <img :src="require(`@/assets/${item.image}`)" :alt="item.title" class="card__image">
+    <img :src="item.image" :alt="item.title" class="card__image">
     <div class="card__title-container">
       <h3 class="card__title">{{ item.title }}</h3>
     </div>
