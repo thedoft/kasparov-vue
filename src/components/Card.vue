@@ -2,7 +2,7 @@
   <li class="card">
     <img :src="item.image" :alt="item.title" class="card__image">
     <div class="card__title-container">
-      <h2 class="card__title">{{ item.title }}</h2>
+      <h3 class="card__title">{{ item.title }}</h3>
     </div>
   </li>
 </template>
