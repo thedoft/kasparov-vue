@@ -3,7 +3,6 @@ import HomePage from '../components/HomePage';
 
 export const router = createRouter({
   history: createWebHistory(),
-  base: process.env.BASE_URL,
   routes: [
     {
       path: '/',
