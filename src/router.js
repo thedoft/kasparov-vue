@@ -10,6 +10,7 @@ import NotFoundPage from './components/NotFoundPage';
 
 export const router = createRouter({
   history: createWebHistory(),
+  mode: 'history',
   routes: [
     {
       path: '/',

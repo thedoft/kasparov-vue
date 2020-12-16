@@ -1,6 +1,6 @@
 <template>
   <a :href="link" class="social-icon" target="_blanc">
-    <img :src="image" :alt="text" class="social-icon__image">
+    <img :src="require(`@/assets/${image}`)" :alt="text" class="social-icon__image">
   </a>
 </template>
 
