@@ -5,7 +5,7 @@
   >
     <div class="popup__container">
       <div class="popup__head-container">
-        <img :src="item.image || '#'" :alt="item.title || 'Альтернативный текст'" class="popup__image">
+        <img :src="item.image || '#'" :alt="item.title || 'Картинка'" class="popup__image">
         <div class="popup__title-container">
           <h2 class="popup__title">{{ item.title || 'Тут должен быть заголовок, но его нет' }}</h2>
           <p class="popup__price">{{ item.price || 'Здесь должна быть цена'}}</p>
