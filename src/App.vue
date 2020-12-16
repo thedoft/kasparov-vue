@@ -1,10 +1,8 @@
 <template>
-  <RouterView>
-    <Header />
-    <Main @open-popup="openPopup" />
-    <Footer />
-    <Popup ref="popup" :onEscape="handleEscapeClose" />
-  </RouterView>
+  <Header />
+  <Main @open-popup="openPopup" />
+  <Footer />
+  <Popup ref="popup" :onEscape="handleEscapeClose" />
 </template>
 
 <script>
