@@ -2,8 +2,11 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HomePage from '../components/HomePage';
 
 export const router = createRouter({
-  history: createWebHistory(),
-  base: process.env.BASE_URL,
+  history: createWebHistory(
+    process.env.NODE_ENV === 'production'
+    ? '/kasparov-vue/'
+    : '/'
+  ),
   routes: [
     {
       path: '/',
